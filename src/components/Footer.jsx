@@ -4,13 +4,17 @@ import logo from "../assets/images/webp/footer/footer-logo.webp";
 import { Instagram, Telegram, YouTube } from "./common/Icon";
 import { links } from "./common/Helper";
 import ellipse from "../assets/images/svg/footer/ellipse.svg";
-import vector from "../assets/images/svg/about-us/left-line-vec.svg"
+import vector from "../assets/images/svg/about-us/left-line-vec.svg";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-offBlack pt-11 relative overflow-hidden">
-      <img className="absolute top-[-119%] pointer-events-none start-0 2xl:block hidden" src={vector} alt="vector" />
+      <img
+        className="absolute top-[-119%] pointer-events-none start-0 2xl:block hidden"
+        src={vector}
+        alt="vector"
+      />
       <img
         className="absolute end-0 bottom-0 pointer-events-none -z-0"
         src={ellipse}
@@ -19,11 +23,13 @@ const Footer = () => {
       <div className="max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-wrap gap-8 lg:flex-row flex-col justify-between">
           <div className="flex flex-col">
-            <img
-              className="sm:max-w-[80px] max-w-[75px] md:max-w-[98.39px] object-cover"
-              src={logo}
-              alt="logo"
-            />
+            <Link to="/home">
+              <img
+                className="sm:max-w-[80px] cursor-pointer max-w-[75px] md:max-w-[98.39px] object-cover"
+                src={logo}
+                alt="logo"
+              />
+            </Link>
             <p className="font-poppins text-lightGrey leading-md max-w-[600px] sm:text-base text-sm lg:max-w-[388px] mt-2 font-normal">
               Lorem ipsum dolor sit amet consectetur. Vulputate ac amet commodo
               adipiscing interdum netus id.
