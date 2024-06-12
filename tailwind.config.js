@@ -30,6 +30,7 @@ module.exports = {
       },
       boxShadow: {
         expertise: " 0px 6px 19.5px 0px #0000001A; ",
+        aboutCards: "1px 7px 21.8px 0px #0000001A;",
       },
       screens: {
         "2xl": "1340px",
