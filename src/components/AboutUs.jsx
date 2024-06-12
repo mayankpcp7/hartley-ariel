@@ -47,12 +47,12 @@ const AboutUs = () => {
           <div className="flex flex-col max-w-[900px] items-center lg:items-start lg:max-w-[462px] xl:max-w-full justify-center mt-6 xl:ps-32 ms-1">
             <div className="flex items-center w-full gap-[11px] justify-center lg:justify-start">
               <span className="bg-black w-[22.89px] h-[2.36px] rounded-sm"></span>
-              <p className="font-poppins leading-auto tracking-wide text-black text-xs sm:text-sm md:text-base font-medium">
-                About US
+              <p className="font-poppins leading-auto capitalize tracking-wide text-black text-xs sm:text-sm md:text-base font-medium">
+                ABOUT US
               </p>
               <span className="bg-black w-[22.89px] h-[2.36px] rounded-sm"></span>
             </div>
-            <h2 className="text-center lg:text-start text-black font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2 lg:mt-4 leading-sm font-hurme-bold">
+            <h2 className="text-center lg:text-start text-black ff_hurmebold font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2 lg:mt-4 leading-sm ">
               Get to Know Us:
               <span className="ff_hurmethin"> Where Innovation </span>
               Meet Sky
