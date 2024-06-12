@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div className="bg-offOrange relative overflow-hidden">
       <img
-        className="absolute pointer-events-none lg:max-w-full sm:max-w-[40ox] lg:block hidden -bottom-[40%]"
+        className="absolute pointer-events-none lg:max-w-full sm:max-w-[40ox] lg:block hidden -bottom-[39%]"
         src={lineVector}
         alt="vector"
       />
@@ -19,7 +19,7 @@ const AboutUs = () => {
         alt="ellipse"
       />
       <div className="max-w-[1164px] px-3 mx-auto">
-        <div className="flex lg:flex-row flex-col justify-between items-center gap-6 lg:gap-0 py-12 md:py-20 lg:py-24 xl:pb-[115px] sm:py-16">
+        <div className="flex lg:flex-row flex-col justify-between items-center gap-6 lg:gap-0 py-12 md:py-20 lg:py-24 xl:pt-16 xl:pb-[115px] sm:py-16">
           <div className="relative">
             <img
               className="absolute -bottom-6 xl:-bottom-[12%] max-w-[70px] lg:max-w-[100px] xl:max-w-full -end-5 xl:-end-[15%] pointer-events-none -z-0"
